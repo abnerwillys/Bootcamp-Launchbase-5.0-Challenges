@@ -1,0 +1,39 @@
+<!-- First server -->
+
+{% extends "layout.njk" %}
+
+{% block head %}
+        <title>Sobre - Rocketseat</title>
+{% endblock %}
+
+{% block changepage %}
+    <a href="/" class="content">Cursos</a>
+{% endblock %}
+
+{% block content %}
+    <section id="info-text">
+        <div class="company-text">
+            <h2>
+                As melhores tecnologias em programação, direto ao ponto e do jeito certo.
+            </h2>
+            <p>
+                No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de alguém que te leve na direção certa.
+            </p>
+            <img src="https://rocketseat.com.br/static/images/update/trofeu-home.svg" alt="sucess">
+        </div>
+
+        <div class="vertical-line"></div>
+
+        <div class="technologies">
+            <h2>As tecnologias mais versáteis do mercado:</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>React Native</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </section>
+{% endblock %}
