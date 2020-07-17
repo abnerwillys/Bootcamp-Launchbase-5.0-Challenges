@@ -5,7 +5,6 @@
         alt="Logo do LaunchBase">
 </h1>
 
----
 
 <h4 align="center">
   🖥️  LaunchBase  5.0  - 🚀  Em andamento!
