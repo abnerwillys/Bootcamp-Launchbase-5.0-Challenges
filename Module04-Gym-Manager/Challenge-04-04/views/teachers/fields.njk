@@ -1,0 +1,86 @@
+<div class="item">
+    <div>Avatar URL</div>
+    <div>
+        <input 
+            type="url" 
+            name="avatar_url" 
+            placeholder="http://..."
+            value="{{ teacher.avatar_url }}"
+        >
+    </div>
+</div>
+
+<div class="item">
+    <div>Teacher</div>
+    <div>
+        <input 
+            type="text" 
+            name="name" 
+            placeholder="Please, type your name"
+            value="{{ teacher.name }}"
+        >
+    </div>
+</div>
+<div class="item">
+    <div>Date of birth</div>
+    <div>
+        <input 
+            type="date" 
+            name="birth"
+            value="{{ teacher.birth }}"
+        >
+    </div>
+</div>
+<div class="item">
+    <div>Level Education</div>
+    <div>
+        <select name="degree" required>
+            <option value="">Select...</option>
+            <option value="Hs">High school</option>
+            <option value="Cl">Associate's Degree</option>
+            <option value="Un">Bachelor's Degree</option>
+            <option value="Ma">Master's</option>
+            <option value="PHD">Doctorate</option>
+        </select>
+    </div>
+</div>
+<div class="item">
+    <div>Type Class</div>
+    <div>
+        <span>
+            <input 
+                type="radio" 
+                name="type_class" 
+                value="IP" 
+                {% if teacher.type_class == "IP" %}
+                checked
+                {% endif %}
+            >
+            In Person
+        </span>
+        <span>
+            <input 
+                type="radio" 
+                name="type_class" 
+                value="EL"
+                {% if teacher.type_class == "EL" %}
+                checked
+                {% endif %}
+            >
+            E-learning
+        </span>
+    </div>
+</div>
+<div class="item">
+    <div>Expertise</div>
+    <div>
+        <input 
+            type="text" 
+            name="expertise" 
+            placeholder="Please, separate your expertise by a comma"
+            value="{{ teacher.expertise }}"
+        >
+    </div>
+</div>
+
+<button type="submit">Save</button>

@@ -1,0 +1,74 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://valedopontar.com.br/wp-content/uploads/2018/08/henry-cavyll-geralt.jpg",
+      "name": "Geralt",
+      "birth": 949363200000,
+      "degree": "Hs",
+      "type_class": "IP",
+      "expertise": "Killer's monster, BadAss",
+      "create_at": 1595382474117
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://valedopontar.com.br/wp-content/uploads/2018/08/henry-cavyll-geralt.jpg",
+      "name": "Geralt",
+      "birth": 949363200000,
+      "degree": "PHD",
+      "type_class": "EL",
+      "expertise": "Killer's monster, BadAss",
+      "create_at": 1595391514036
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://valedopontar.com.br/wp-content/uploads/2018/08/henry-cavyll-geralt.jpg",
+      "name": "Geralt",
+      "birth": 949363200000,
+      "degree": "Un",
+      "type_class": "EL",
+      "expertise": "Killer's monster, BadAss",
+      "create_at": 1595393347991
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://valedopontar.com.br/wp-content/uploads/2018/08/henry-cavyll-geralt.jpg",
+      "name": "Geralt",
+      "birth": 949363200000,
+      "degree": "PHD",
+      "type_class": "EL",
+      "expertise": "Killer's monster, BadAss",
+      "create_at": 1595393373409
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/a/a1/Dandelion-TW3_render.png/revision/latest/top-crop/width/360/height/360?cb=20150216151806",
+      "name": "Dandelion",
+      "birth": 724377600000,
+      "degree": "Ma",
+      "type_class": "IP",
+      "expertise": "Bardo, Sexy, Heartbreaker",
+      "create_at": 1595394002682
+    },
+    {
+      "id": 6,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/a/a1/Dandelion-TW3_render.png/revision/latest/top-crop/width/360/height/360?cb=20150216151806",
+      "name": "Dandelion",
+      "birth": 724377600000,
+      "degree": "PHD",
+      "type_class": "EL",
+      "expertise": "Bardo, Sexy, Heartbreaker",
+      "create_at": 1595394021721
+    },
+    {
+      "id": 7,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/a/a1/Dandelion-TW3_render.png/revision/latest/top-crop/width/360/height/360?cb=20150216151806",
+      "name": "Dandelion",
+      "birth": 724377600000,
+      "degree": "Hs",
+      "type_class": "EL",
+      "expertise": "Bardo, Sexy, Heartbreaker",
+      "create_at": 1595394035950
+    }
+  ]
+}
