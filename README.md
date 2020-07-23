@@ -97,13 +97,13 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
   - [Desafio 4-3: Formulário e Rota de cadastro do Professor](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-3-form-and-routes-teacher.md)
     - [x] [Formulário e Rota de cadastro do Professor](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-03)
   - [Desafio 4-4: Apresentação, edição e formatação dos dados de um professor](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-4-show-edit-format-teacher.md)
-    - [ ] [Apresentação, edição e formatação dos dados de um professor]()
+    - [ ] [Apresentação, edição e formatação dos dados de um professor](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-04)
   - [Desafio 4-5: HTTP: PUT e DELETE](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-5-put-delete-teacher.md)
-    - [ ] [HTTP: PUT e DELETE]()
+    - [ ] [HTTP: PUT e DELETE](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-05)
   - [Desafio 4-6: Listagem de professores](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-6-list-teachers.md)
-    - [ ] [Listagem de professores]()
+    - [ ] [Listagem de professores](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-06)
   - [Desafio 4-7: Estruturando estudantes](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-7-students.md)
-    - [ ] [Estruturando estudantes]()
+    - [ ] [Estruturando estudantes](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-07)
 
 ---
 ### 💻 Tecnologias utilizadas
