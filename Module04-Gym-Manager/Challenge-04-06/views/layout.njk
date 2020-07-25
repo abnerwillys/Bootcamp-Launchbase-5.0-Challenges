@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block head %}
+        <title>Aulas Particulares</title>
+    {% endblock %}
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <div class="links">
+            <a href="/" class="active">Teachers</a>
+            <a href="/students">Students</a>
+        </div>
+    </header>
+    
+    {% block content %}
+
+    {% endblock%}
+</body>
+</html>
