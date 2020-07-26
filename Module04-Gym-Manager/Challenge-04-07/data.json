@@ -1,0 +1,88 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59853942?s=460&u=000274e39c7029e3c065fd9a6913c850907d4691&v=4",
+      "name": "Abner Willys",
+      "email": "abwillys001@gmail.com",
+      "birth": 811123200000,
+      "grade_school": "Sr",
+      "workload": "20",
+      "grade": "Senior"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/2/27/Triss-TW3-new-render.png/revision/latest?cb=20160402173701",
+      "name": "Lunna Pyetra",
+      "email": "lunna@gmail.com",
+      "birth": 1756080000000,
+      "grade_school": "5g",
+      "workload": "18",
+      "grade": "5th grade"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/a/a1/Dandelion-TW3_render.png/revision/latest/top-crop/width/360/height/360?cb=20150216151806",
+      "name": "Mariana Pereira",
+      "email": "mary@gmail.com",
+      "birth": 807321600000,
+      "grade_school": "Sr",
+      "workload": "25",
+      "grade": "Senior"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://valedopontar.com.br/wp-content/uploads/2018/08/henry-cavyll-geralt.jpg",
+      "name": "Geralt de Rivia",
+      "birth": 811123200000,
+      "degree": "Ma",
+      "type_class": "IP",
+      "expertise": [
+        "Killer's monster",
+        " BadAss",
+        " Witcher",
+        " White Wolf"
+      ],
+      "create_at": 1595382474117
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/2/27/Triss-TW3-new-render.png/revision/latest?cb=20160402173701",
+      "name": "Triss Merigold",
+      "birth": 949363200000,
+      "degree": "Ma",
+      "type_class": "IP",
+      "expertise": [
+        "Sorceress",
+        " Kind"
+      ],
+      "create_at": 1595391514036
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://vignette.wikia.nocookie.net/witcher/images/a/a1/Dandelion-TW3_render.png/revision/latest/top-crop/width/360/height/360?cb=20150216151806",
+      "name": "Dandelion",
+      "birth": -1801353600000,
+      "degree": "Cl",
+      "type_class": "IP",
+      "expertise": [
+        "Bardo",
+        " Sexy",
+        " Heartbreaker"
+      ],
+      "create_at": 1595394002682
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://i1.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2020/01/Vesemir_WitcherWiki.png?fit=290%2C417&ssl=1",
+      "name": "Vesemir",
+      "birth": -4997203200000,
+      "degree": "PHD",
+      "type_class": "IP",
+      "expertise": "Killer's monster, BadAss, Elder, Witcher",
+      "create_at": 1595650116336
+    }
+  ]
+}

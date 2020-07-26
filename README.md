@@ -89,7 +89,7 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
     - [x] [Arquivos nunjucks e dados dinâmicos](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module03-Starting-at-the-Back-end/Challenge-03-02)
   - [Desafio 3-3: Página de descrição do curso](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-03/blob/master/desafios/03-3-pagina-descricao-curso.md)
     - [x] [Página de descrição do curso](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module03-Starting-at-the-Back-end/Challenge-03-03)
-- :point_right: [Módulo 4 - Controle de Academia](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04)  👨‍💻 Codando...👨‍💻
+- :point_right: [Módulo 4 - Controle de Academia](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04) 🏆 Finalizado 🏆
   - [Desafio 4-1: Header](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-1-header.md)
     - [x] [Header](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-01)
   - [Desafio 4-2: Card do Professor](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-2-card-teacher.md)
@@ -103,8 +103,17 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
   - [Desafio 4-6: Listagem de professores](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-6-list-teachers.md)
     - [x] [Listagem de professores](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-06)
   - [Desafio 4-7: Estruturando estudantes](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-04/blob/master/desafios/04-7-students.md)
-    - [ ] [Estruturando estudantes](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-07)
+    - [x] [Estruturando estudantes](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module04-Gym-Manager/Challenge-04-07)
 
+- :point_right: [Módulo 5 - Persistindo dados da aplicação](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05)  👨‍💻 Codando...👨‍💻
+  - [Desafio 5-1: Refatorando aplicação e configurando o BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-1-refatorando-aplicacao.md)
+    - [ ] [Refatorando aplicação e configurando o BD]()
+  - [Desafio 5-2: Interagindo com o BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-2-interagindo-bd.md)
+    - [ ] [Interagindo com o BD]()
+  - [Desafio 5-3: Relacionamentos e filtros no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-3-relacionamentos-filtros-bd.md)
+    - [ ] [Relacionamentos e filtros no BD]()
+  - [Desafio 5-4: Paginação de resultados no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-4-paginacao-bd.md)
+    - [ ] [Paginação de resultados no BD]()
 ---
 ### 💻 Tecnologias utilizadas
 
