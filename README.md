@@ -39,11 +39,11 @@
 ---
 
 <p align="center">
- <a href="#instruções-para-o-índice-dos-desafios">Instruções</a> •
- <a href="#índice-dos-desafios">Índice de Desafios</a> • 
- <a href="#tecnologias-utilizadas">Tecnologias</a> • 
- <a href="#licença">Licença</a> • 
- <a href="#desenvolvedor">Desenvolvedor</a>
+ <a href="#-instruções-para-o-índice-dos-desafios">Instruções</a> •
+ <a href="#-índice-dos-desafios">Índice de Desafios</a> • 
+ <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
+ <a href="#-licença">Licença</a> • 
+ <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
 
 ---
@@ -107,13 +107,13 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
 
 - :point_right: [Módulo 5 - Persistindo dados da aplicação](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05)  👨‍💻 Codando...👨‍💻
   - [Desafio 5-1: Refatorando aplicação e configurando o BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-1-refatorando-aplicacao.md)
-    - [ ] [Refatorando aplicação e configurando o BD]()
+    - [x] [Refatorando aplicação e configurando o BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-01)
   - [Desafio 5-2: Interagindo com o BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-2-interagindo-bd.md)
-    - [ ] [Interagindo com o BD]()
+    - [x] [Interagindo com o BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-02)
   - [Desafio 5-3: Relacionamentos e filtros no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-3-relacionamentos-filtros-bd.md)
-    - [ ] [Relacionamentos e filtros no BD]()
+    - [ ] [Relacionamentos e filtros no BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-03)
   - [Desafio 5-4: Paginação de resultados no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-4-paginacao-bd.md)
-    - [ ] [Paginação de resultados no BD]()
+    - [ ] [Paginação de resultados no BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-04)
 ---
 ### 💻 Tecnologias utilizadas
 
@@ -225,7 +225,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 <a href="mailto:tgmarinho@gmail.com">
     <img 
         alt="gmail Abner Willys" 
-        src="https://img.shields.io/badge/-abwillys001@gmail.com-%23c14438?style=flat-square&logo=gmail&logoColor=white">
+        src="https://img.shields.io/badge/-Gmail-%23c14438?style=flat-square&logo=gmail&logoColor=white">
 </a>
 <a href="https://www.facebook.com/abnerwillys">
     <img 

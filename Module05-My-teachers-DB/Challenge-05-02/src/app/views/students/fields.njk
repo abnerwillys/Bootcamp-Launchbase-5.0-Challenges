@@ -1,0 +1,95 @@
+<div class="item">
+  <div>Avatar URL</div>
+  <div>
+    <input 
+      type="url" 
+      name="avatar_url" 
+      placeholder="http://..."
+      value="{{ student.avatar_url }}"
+    >
+  </div>
+</div>
+
+<div class="item">
+  <div>Name</div>
+  <div>
+    <input 
+      type="text" 
+      name="name" 
+      value="{{ student.name }}"
+    >
+  </div>
+</div>
+<div class="item">
+  <div>Email</div>
+  <div>
+    <input 
+      type="email" 
+      name="email" 
+      value="{{ student.email }}"
+    >
+  </div>
+</div>
+<div class="item">
+  <div>Date of birth</div>
+  <div>
+    <input 
+      type="date" 
+      name="birth"
+      value="{{ student.birth }}"
+    >
+  </div>
+</div>
+<div class="item">
+  <div>Grade</div>
+  <div>
+    <select name="grade_school" required>
+      <option value="" hidden>Select...</option>
+      <optgroup label="Middle School">
+        <option value="5g" {% if student.grade_school == "5g" %}selected{% endif %}>
+          5th grade
+        </option>
+        <option value="6g" {% if student.grade_school == "6g" %}selected{% endif %}>
+          6th grade
+        </option>
+        <option value="7g" {% if student.grade_school == "7g" %}selected{% endif %}>
+          7th grade
+        </option>
+        <option value="8g" {% if student.grade_school == "8g" %}selected{% endif %}>
+          8th grade
+        </option>
+      </optgroup>
+      <optgroup label="High School">
+        <option value="Fr" {% if student.grade_school == "fr" %}selected{% endif %}>
+          Freshman
+        </option>
+        <option value="Sp" {% if student.grade_school == "Sp" %}selected{% endif %}>
+          Sophomore
+        </option>
+        <option value="Jr" {% if student.grade_school == "Jr" %}selected{% endif %}>
+          Junior
+        </option>
+        <option value="Sr" {% if student.grade_school == "Sr" %}selected{% endif %}>
+          Senior
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</div>
+<div class="item">
+  <div>Weekly course load (in hours)</div>
+  <div>
+    <input 
+      type="number" 
+      name="course_load" 
+      value="{{ student.course_load }}"
+    >
+  </div>
+</div>
+
+<button type="submit">
+  Save
+  <span class="material-icons">
+    save
+  </span>
+</button>
