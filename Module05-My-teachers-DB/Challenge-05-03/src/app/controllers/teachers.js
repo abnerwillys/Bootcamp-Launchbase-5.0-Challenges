@@ -5,8 +5,8 @@ module.exports = {
   index(req, res) {
     const { filter } = req.query
 
-    function transformArrayExpertise(arrayTeacher) {
-      arrayTeacher.forEach(teacher => {
+    function transformArrayExpertise(arrayTeachers) {
+      arrayTeachers.forEach(teacher => {
         teacher.expertise = transformExpertise(teacher)
       })
     }
