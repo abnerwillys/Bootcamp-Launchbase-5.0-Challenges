@@ -1,8 +1,8 @@
 <h1 align="center">
-    <img 
-        src="/readme-assets/logo-launchbase.png"
-        width="430px"
-        alt="Logo do LaunchBase">
+  <img 
+    src="/readme-assets/logo-launchbase.png"
+    width="430px"
+    alt="Logo do LaunchBase">
 </h1>
 
 
@@ -11,28 +11,28 @@
 </h4>
 
 <h6 align="center">
-    Bootcamp Launchbase é lecionado pela Rocketseat. Com foco na stack JavaScript, tem como objetivo preparar o Dev para entrar no mercado de trabalho como Desenvolvedor Junior.    
+  Bootcamp Launchbase é lecionado pela Rocketseat. Com foco na stack JavaScript, tem como objetivo preparar o Dev para entrar no mercado de trabalho como Desenvolvedor Junior.    
 </h6>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abnerwillys/">
     <img 
-        alt="Made by Abner Willys" 
-        src="https://img.shields.io/badge/MADE%20BY-Abner%20Willys-%230077b5?style=flat-square&logo=linkedin">
+      alt="Made by Abner Willys" 
+      src="https://img.shields.io/badge/MADE%20BY-Abner%20Willys-%230077b5?style=flat-square&logo=linkedin">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%20brightgreen?style=flat-square&logo=">
 
   <a href="https://rocketseat.com.br/">
     <img 
-        alt="Instituição de Ensino" 
-        src="https://img.shields.io/badge/-Rocketseat-%237159c1?style=flat-square&logo=apache-rocketMQ&logoColor=White">
+      alt="Instituição de Ensino" 
+      src="https://img.shields.io/badge/-Rocketseat-%237159c1?style=flat-square&logo=apache-rocketMQ&logoColor=White">
   </a>
 
   <a href="https://www.javascript.com/">
     <img 
-        alt="JavaScript" 
-        src="https://img.shields.io/badge/STACK-JavaScript-%23F7DF1E?style=flat-square&logo=JAVASCRIPT">
+      alt="JavaScript" 
+      src="https://img.shields.io/badge/STACK-JavaScript-%23F7DF1E?style=flat-square&logo=JAVASCRIPT">
   </a>
 </p>
 
@@ -111,7 +111,7 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
   - [Desafio 5-2: Interagindo com o BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-2-interagindo-bd.md)
     - [x] [Interagindo com o BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-02)
   - [Desafio 5-3: Relacionamentos e filtros no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-3-relacionamentos-filtros-bd.md)
-    - [ ] [Relacionamentos e filtros no BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-03)
+    - [x] [Relacionamentos e filtros no BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-03)
   - [Desafio 5-4: Paginação de resultados no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-4-paginacao-bd.md)
     - [ ] [Paginação de resultados no BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-04)
 ---
