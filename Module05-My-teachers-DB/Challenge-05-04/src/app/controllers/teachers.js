@@ -3,27 +3,42 @@ const Teacher = require('../models/Teacher')
 
 module.exports = {
   index(req, res) {
-    const { filter } = req.query
+    let { filter, page, limit } = req.query
 
-    function transformArrayExpertise(arrayTeachers) {
-      arrayTeachers.forEach(teacher => {
-        teacher.expertise = transformExpertise(teacher)
-      })
+    page  = page  || 1
+    limit = limit || 2
+    let offset = limit * (page - 1)
+
+    const params = {
+      filter,
+      page,
+      limit,
+      offset,
+      callback(teachers) {
+        try {
+          teachers.forEach(teacher => {
+            teacher.expertise = transformExpertise(teacher)
+          })
+  
+          const pagination = {
+            totalPages: Math.ceil(teachers[0].total / limit),
+            page
+          }
+  
+          return res.render("teachers/index", { teachers, pagination, filter })
+
+        } catch (error) {
+          const messageErrorFilter = "Not found any register!"
+
+          if (error) {
+            console.log(error)
+            return res.render("teachers/index", { messageErrorFilter })
+          }
+        }
+      }
     }
 
-    if (filter) {
-      Teacher.findBy(filter, (teachers) => {
-        transformArrayExpertise(teachers)
-  
-        return res.render("teachers/index", { teachers, filter })
-      })
-    } else {
-      Teacher.all((teachers) => {
-        transformArrayExpertise(teachers)
-  
-        return res.render("teachers/index", { teachers })
-      })
-    }
+    Teacher.paginate(params)
   },
   create(req, res) {
     return res.render("teachers/create")

@@ -2,8 +2,25 @@
 
 {% block content %}
   <div class="card table-container">
-    <a href="/students/create"><span class="material-icons">add</span></a>
+    <div class="header">
+      <a href="/students/create"><span class="material-icons">add</span></a>
 
+      <form action="/students" method="GET">
+        <div class="input-block">
+          <input 
+            type="text" 
+            name="filter" 
+            value="{{filter}}"
+            placeholder="Name or Email"
+          >
+        </div>
+
+        <button type="submit"><span class="material-icons">search</span></button>
+      </form>
+    </div>
+
+    {% if not messageErrorFilter %}
+    
     <table width="100%">
       <thead>
         <tr>
@@ -31,5 +48,20 @@
         {% endfor %}
       </tbody>
     </table>
+
+    {% else %}
+
+      <div class="register-notfound">
+        <h4>{{messageErrorFilter}}</h4>
+      </div>
+      
+    {% endif %}
+
+    <div 
+      class="pagination"
+      data-page={{pagination.page}}
+      data-total={{pagination.totalPages}}
+      data-filter={{filter}}
+    ></div>
   </div>
 {% endblock content %}

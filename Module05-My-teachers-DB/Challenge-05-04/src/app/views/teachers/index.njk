@@ -19,36 +19,52 @@
       </form>
     </div>
 
-    <table width="100%">
-      <thead>
-        <tr>
-          <th>Teacher's name</th>
-          <th>Attendance</th>
-          <th>Student(s)</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for teacher in teachers %}
+    {% if not messageErrorFilter %}
+
+      <table width="100%">
+        <thead>
           <tr>
-            <td>
-              <span style="background-image: url({{ teacher.avatar_url }})"></span>
-              {{ teacher.name }}
-            </td>
-            <td>
-              {% for skill in teacher.expertise %}
-                <span>{{ skill }}</span>
-              {% endfor %}
-            </td>
-            <td>{{ teacher.total_students }}</td>
-            <td>
-              <a href="/teachers/{{ teacher.id }}">
-                <span class="material-icons">remove_red_eye</span>
-              </a>
-            </td>
+            <th>Teacher's name</th>
+            <th>Attendance</th>
+            <th>Student(s)</th>
+            <th>Action</th>
           </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {% for teacher in teachers %}
+            <tr>
+              <td>
+                <span style="background-image: url({{ teacher.avatar_url }})"></span>
+                {{ teacher.name }}
+              </td>
+              <td>
+                {% for skill in teacher.expertise %}
+                  <span>{{ skill }}</span>
+                {% endfor %}
+              </td>
+              <td>{{ teacher.total_students }}</td>
+              <td>
+                <a href="/teachers/{{ teacher.id }}">
+                  <span class="material-icons">remove_red_eye</span>
+                </a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+    {% else %}
+
+      <div class="register-notfound">
+        <h4>{{messageErrorFilter}}</h4>
+      </div>
+      
+    {% endif %}
+    <div 
+      class="pagination"
+      data-page={{pagination.page}}
+      data-total={{pagination.totalPages}}
+      data-filter={{filter}}
+    ></div>
   </div>
 {% endblock content %}

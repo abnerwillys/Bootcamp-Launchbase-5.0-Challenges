@@ -3,14 +3,42 @@ const Student = require('../models/Student')
 
 module.exports = {
   index(req, res) {
-    Student.all((students) => {
-      
-      students.forEach(student => {
-        student.grade_school = grade(student.grade_school)
-      })
+    let { filter, page, limit } = req.query
 
-      return res.render("students/index", { students })
-    })
+    page  = page  || 1
+    limit = limit || 2
+    let offset = limit * (page - 1)
+
+    const params = {
+      filter,
+      page,
+      limit,
+      offset,
+      callback(students) {
+        try {
+          students.forEach(student => {
+            student.grade_school = grade(student.grade_school)
+          })
+  
+          const pagination = {
+            totalPages: Math.ceil(students[0].total / limit),
+            page
+          }
+  
+          return res.render("students/index", { students, pagination, filter })
+
+        } catch (error) {
+          const messageErrorFilter = "Not found any register!"
+
+          if (error) {
+            console.log(error)
+            return res.render("students/index", { messageErrorFilter })
+          }
+        }
+      }
+    }
+
+    Student.paginate(params)
   },
   create(req, res) {
     Student.teacherSelectOptions(options => {

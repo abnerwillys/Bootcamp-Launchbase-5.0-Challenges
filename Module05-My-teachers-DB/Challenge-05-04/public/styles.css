@@ -177,7 +177,8 @@ input::placeholder {
 
 
 a.button,
-.table-container a,
+.table-container table a,
+.table-container .header a,
 button[type="submit"],
 tbody tr td:last-child a {
   padding: 8px 32px;
@@ -206,7 +207,8 @@ tbody tr td:last-child a {
 }
 
 a.button:hover,
-.table-container a:hover,
+.table-container table a:hover,
+.table-container .header a:hover,
 button[type="submit"]:hover,
 tbody tr td:last-child a:hover {
   font-weight: bold;
@@ -249,7 +251,7 @@ a.button span,
   padding: 40px;
 }
 
-.table-container table{
+.table-container table {
   border-spacing: 0;
   text-align: center;
 }
@@ -304,7 +306,8 @@ tbody tr td:last-child a {
   align-items: center;
 }
 
-.table-container a {
+.table-container .header a,
+.table-container table a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,4 +374,57 @@ tbody tr td:last-child a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* == PAGINATION == */
+.table-container {
+  display: grid;
+  grid-template: 64px 1fr auto / 1fr;
+
+  padding-bottom: 15px;
+}
+
+.table-container .header {
+  margin: 0;
+  align-self: start;
+}
+
+.table-container .pagination {
+  margin: 0;
+  align-self: end;
+  justify-self: center;
+
+  padding-top: 35px;
+}
+
+.pagination a,
+.pagination span {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-right: 16px;
+
+  padding: 8px 16px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 12px;
+  animation: type_class 1200ms var(--curva-bezier);
+}
+
+.pagination a:hover {
+  transition: all 0.2s;
+  transform: scale(1.1, 1.1);
+}
+
+.pagination .selected {
+  box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.7);
+}
+
+/* == NOT FUND FILTER == */
+.table-container .register-notfound {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 22px;
+  color: #a06a6a;
 }
