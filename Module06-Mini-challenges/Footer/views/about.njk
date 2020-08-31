@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+        <title>Sobre - Rocketseat</title>
+{% endblock %}
+
+{% block changepage %}
+    <a href="/" class="content">Cursos</a>
+{% endblock %}
+
+{% block content %}
+    <section id="info-text">
+        <div class="company-text">
+
+            {{ aboutData.description }}
+
+            <img src= "{{ aboutData.image_description }}" alt="Troféu de sucesso">
+        </div>
+
+        <div class="vertical-line"></div>
+
+        <div class="technologies">
+            {{ aboutData.technology_title }}
+            <ul>
+                {% for item in aboutData.technology_items %}
+                    <li>{{item}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+{% endblock %}

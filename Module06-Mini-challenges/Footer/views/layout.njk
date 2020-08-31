@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {% block head %}
+            <title>Rocketseat</title>
+        {% endblock %}
+
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"/>
+
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="company">
+                <img src="https://rocketseat.gallerycdn.vsassets.io/extensions/rocketseat/rocketseatreactnative/3.0.1/1588456740326/Microsoft.VisualStudio.Services.Icons.Default" alt="Rocketseat">
+                <h1>Rocketseat</h1>
+            </div>
+
+            {% block changepage %}
+                <a href="/about" class="change-page">
+                    <img src="/assets/home-black-24dp.svg" alt="Home">
+                </a>
+            {% endblock %}
+
+            <div class="links">
+                {% for link in linksHeader%}
+                    <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+                {% endfor %}
+            </div>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+        <footer>
+            <div class="footer-links">
+                {% for link in linksFooter %}
+                    <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+                {% endfor %}
+            </div>
+
+            <div class="info-rocket">
+                <p>Residencial Acalanto - R. Guilherme Gemballa, 260 - Sala 3 - Jardim América, Rio do Sul - SC, 89160-188</p>
+                <p>Rocketseat © 2020 - Todos os direitos reservados</p>
+            </div>
+        </footer>
+
+        {% block script %}
+        {% endblock %}
+    </body>
+</html>
