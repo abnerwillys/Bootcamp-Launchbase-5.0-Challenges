@@ -117,7 +117,10 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
 
 - :point_right: [Módulo 6 - LaunchStore](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06)  👨‍💻 Codando...👨‍💻
   - [Desafio 6-1: Mini desafios](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06/blob/master/desafios/06-1-mini-desafios.md)
-    - [ ] [Mini desafios]()
+    - [x] [DBML]()
+    - [x] [Footer]()
+    - [x] [Funções Assíncronas]()
+    - [x] [Máscaras de Input]()
 ---
 ### 💻 Tecnologias utilizadas
 
@@ -125,65 +128,84 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
 As seguintes ferramentas foram usadas na solução dos desafios:
 
 <p align="center">
-    <a href="https://www.javascript.com/">
-        <img 
-            src="/readme-assets/icon-javascript.svg" 
-            alt="logo JavaScript"
-            width="50px"
-            style="border-radius: 8px;">
-    </a>
-    <a href="http://www.ecma-international.org/ecma-262/6.0/">
-        <img 
-            src="/readme-assets/icon-ecmascript6.svg" 
-            alt="logo ECS6"
-            width="50px"
-            style="border-radius: 8px;">
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-        <img 
-            src="/readme-assets/icon-css3.svg" 
-            alt="logo CSS3"
-            width="50px"
-            style="border-radius: 8px;">
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-        <img 
-            src="/readme-assets/icon-html5.svg" 
-            alt="logo HTML5"
-            width="50px"
-            style="border-radius: 8px;">
-    </a>
-    <a href="https://nodejs.org/en/">
-        <img 
-            src="/readme-assets/icon-nodejs.svg" 
-            alt="logo Node.js"
-            width="50px"
-            style="border-radius: 8px;">
-    </a>
-    <a href="https://expressjs.com/">
-        <img 
-            src="/readme-assets/icon-express2.png" 
-            alt="logo framework express"
-            width="100px">
-    </a>
-    <a href="https://git-scm.com/">
-        <img 
-            src="/readme-assets/icon-git.svg" 
-            alt="logo git"
-            width="50px">
-    </a>
-    <a href="https://www.postgresql.org/">
-        <img 
-            src="/readme-assets/icon-postgresql.svg" 
-            alt="logo postgreSQL"
-            width="50px">
-    </a>
-    <a href="https://www.figma.com/">
-        <img 
-            src="/readme-assets/icon-figma.svg" 
-            alt="logo Figma"
-            width="50px">
-    </a>
+  <a href="https://www.javascript.com/">
+    <img 
+      src="/readme-assets/icon-javascript.svg" 
+      alt="logo JavaScript"
+      width="50px"
+      style="border-radius: 8px;">
+  </a>
+  <a href="http://www.ecma-international.org/ecma-262/6.0/">
+    <img 
+      src="/readme-assets/icon-ecmascript6.svg" 
+      alt="logo ECS6"
+      width="50px"
+      style="border-radius: 8px;">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img 
+      src="/readme-assets/icon-css3.svg" 
+      alt="logo CSS3"
+      width="50px"
+      style="border-radius: 8px;">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    <img 
+      src="/readme-assets/icon-html5.svg" 
+      alt="logo HTML5"
+      width="50px"
+      style="border-radius: 8px;">
+  </a>
+  <a href="https://mozilla.github.io/nunjucks/">
+    <img 
+      src="/readme-assets/icon-nunjucks.svg" 
+      alt="logo HTML5"
+      width="52px"
+      style="border-radius: 8px;">
+  </a>
+  <a href="https://nodejs.org/en/">
+    <img 
+      src="/readme-assets/icon-nodejs.svg" 
+      alt="logo Node.js"
+      width="50px"
+      style="border-radius: 8px;">
+  </a>
+  <a href="https://expressjs.com/">
+    <img 
+      src="/readme-assets/icon-express2.png" 
+      alt="logo framework express"
+      width="85px">
+  </a>
+  <a href="https://git-scm.com/">
+    <img 
+      src="/readme-assets/icon-git.svg" 
+      alt="logo git"
+      width="50px">
+  </a>
+  <a href="https://github.com/">
+    <img 
+      src="/readme-assets/icon-gitHub2.svg" 
+      alt="logo git"
+      width="50px">
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img 
+      src="/readme-assets/icon-postgresql.svg" 
+      alt="logo postgreSQL"
+      width="50px">
+  </a>
+  <a href="https://www.figma.com/">
+    <img 
+      src="/readme-assets/icon-figma.svg" 
+      alt="logo Figma"
+      width="50px">
+  </a>
+  <a href="https://code.visualstudio.com/">
+    <img 
+      src="/readme-assets/icon-vscode.svg" 
+      alt="logo Figma"
+      width="50px">
+  </a>
 </p>
 
 
