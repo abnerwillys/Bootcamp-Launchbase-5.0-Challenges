@@ -115,12 +115,15 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
   - [Desafio 5-4: Paginação de resultados no BD](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-05/blob/master/desafios/05-4-paginacao-bd.md)
     - [x] [Paginação de resultados no BD](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module05-My-teachers-DB/Challenge-05-04)
 
-- :point_right: [Módulo 6 - LaunchStore](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06)  👨‍💻 Codando...👨‍💻
+- :point_right: [Módulo 6 - LaunchStore](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06)  🏆 Finalizado 🏆
   - [Desafio 6-1: Mini desafios](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06/blob/master/desafios/06-1-mini-desafios.md)
-    - [x] [DBML]()
-    - [x] [Footer]()
-    - [x] [Funções Assíncronas]()
-    - [x] [Máscaras de Input]()
+    - [x] [DBML](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/DBML)
+    - [x] [Footer](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Footer)
+    - [x] [Funções Assíncronas](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Async-functions)
+    - [x] [Máscaras de Input](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Input-mask)
+
+- :point_right: [Módulo 7 - Upload de Imagens](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06)  👨‍💻 Codando...👨‍💻
+  
 ---
 ### 💻 Tecnologias utilizadas
 
