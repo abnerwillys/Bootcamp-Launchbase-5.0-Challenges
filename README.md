@@ -120,7 +120,7 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
     - [x] [DBML](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/DBML)
     - [x] [Footer](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Footer)
     - [x] [Funções Assíncronas](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Async-functions)
-    - [x] [Máscaras de Input](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Input-mask)
+    - [x] [Máscaras de Input](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Input-masks)
 
 - :point_right: [Módulo 7 - Upload de Imagens](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06)  👨‍💻 Codando...👨‍💻
   
