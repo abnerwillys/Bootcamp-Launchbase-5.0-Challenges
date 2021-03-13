@@ -35,7 +35,7 @@ module.exports = {
     } catch (error) {
       const messageErrorFilter = "Not found any register!"
       console.log(error)
-      return res.render("teachers/index", { messageErrorFilter })
+      return res.render("teachers/index", { messageErrorFilter, error: `ATENÇÃO: ${error}` })
     }
   },
   create(req, res) {
@@ -44,7 +44,10 @@ module.exports = {
   async post(req, res) {
     try {
       const checkFields = areTheFieldsFilled(req.body)
-      if (checkFields) return res.send(checkFields.message)
+      if (checkFields) return res.render('teachers/create', { 
+        teacher: req.body,
+        error: checkFields.message
+      })
       
       const teacherId = await Teacher.create({
         ...req.body,
@@ -54,6 +57,10 @@ module.exports = {
       return res.redirect(`teachers/${teacherId}`)
     } catch (error) {
       console.log(error)
+      return res.render('teachers/create', { 
+        teacher: req.body,
+        error: `ATENÇÃO: ${error}`
+      })
     }
   },
   async show(req, res) {
@@ -91,7 +98,10 @@ module.exports = {
       const { id } = req.body
 
       const checkFields = areTheFieldsFilled(req.body)
-      if (checkFields) return res.send(checkFields.message)
+      if (checkFields) return res.render('teachers/edit', { 
+        teacher: req.body,
+        error: checkFields.message
+      })
 
       await Teacher.update(id, {
         ...req.body,
@@ -101,6 +111,10 @@ module.exports = {
       return res.redirect(`teachers/${id}`)
     } catch (error) {
       console.error(error)
+      return res.render('teachers/edit', { 
+        teacher: req.body,
+        error: `ATENÇÃO: ${error}`
+      })
     }
   },
   async delete(req, res) {

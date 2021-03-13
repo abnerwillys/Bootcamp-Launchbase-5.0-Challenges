@@ -1,4 +1,4 @@
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Avatar URL</div>
   <div>
     <input 
@@ -6,48 +6,48 @@
       name="avatar_url" 
       placeholder="http://..."
       value="{{ student.avatar_url }}"
-      required
+      
     >
   </div>
 </div>
 
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Name</div>
   <div>
     <input 
       type="text" 
       name="name" 
       value="{{ student.name }}"
-      required
+      
     >
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Email</div>
   <div>
     <input 
       type="email" 
       name="email" 
       value="{{ student.email }}"
-      required
+      
     >
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Date of birth</div>
   <div>
     <input 
       type="date" 
       name="birth"
       value="{{ student.birth }}"
-      required
+      
     >
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Grade</div>
   <div>
-    <select name="grade_school" required>
+    <select name="grade_school" >
       <option value="" hidden>Select...</option>
       <optgroup label="Middle School">
         <option value="5g" {% if student.grade_school == "5g" %}selected{% endif %}>
@@ -80,21 +80,21 @@
     </select>
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Weekly course load (in hours)</div>
   <div>
     <input 
       type="number" 
       name="course_load" 
       value="{{ student.course_load }}"
-      required
+      
     >
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Teacher</div>
   <div>
-    <select name="teacher_id" required>
+    <select name="teacher_id" >
       <option value="" hidden>Select...</option>
       {% for teacher in teacherOptions %}
         <option 

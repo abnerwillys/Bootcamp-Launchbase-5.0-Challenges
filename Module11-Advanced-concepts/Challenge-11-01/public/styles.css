@@ -5,6 +5,8 @@
   --secondary-color: #F7D71E;
   --text-color-alternative: #777;
   --curva-bezier: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  --color-error: #ff2121;
+  --color-success: #01B12A;
 }
 
 * {
@@ -104,6 +106,10 @@ header {
 .details .item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 16px 0 16px 5px;
+}
+
+.details .item.input-error {
+  border-bottom: 2px solid var(--color-error);
 }
 
 .details h3,

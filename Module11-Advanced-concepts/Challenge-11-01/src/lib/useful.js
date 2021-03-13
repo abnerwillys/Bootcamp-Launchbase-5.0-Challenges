@@ -78,7 +78,7 @@ module.exports = {
     for (key of keys) {
       if (body[key] == "") {
         return {
-          message: 'Please, fill all fields!'
+          message: 'Por favor, preencha todos os campos!'
         }
       }
     }
