@@ -35,7 +35,7 @@ module.exports = {
     } catch (error) {
       const messageErrorFilter = "Not found any register!"
       console.log(error)
-      return res.render("students/index", { messageErrorFilter })
+      return res.render("students/index", { messageErrorFilter, error: `ATENÇÃO: ${error}` })
     }
   },
   async create(req, res) {
@@ -50,7 +50,14 @@ module.exports = {
   async post(req, res) {
     try {
       const checkFields = areTheFieldsFilled(req.body)
-      if (checkFields) return res.send(checkFields.message)
+      if (checkFields) {
+        const teacherOptions = await Student.teacherSelectOptions()
+        return res.render('students/create', { 
+          teacherOptions,
+          student: req.body,
+          error: checkFields.message
+        })
+      }
     
       const studentId = await Student.create({
         ...req.body,
@@ -60,6 +67,12 @@ module.exports = {
       return res.redirect(`students/${studentId}`)
     } catch (error) {
       console.error(error)
+      const teacherOptions = await Student.teacherSelectOptions()
+      return res.render('students/create', { 
+        teacherOptions,
+        student: req.body,
+        error: `ATENÇÃO: ${error}`
+      })
     }
   },
   async show(req, res) {
@@ -97,7 +110,14 @@ module.exports = {
       const { id } = req.body
 
       const checkFields = areTheFieldsFilled(req.body)
-      if (checkFields) return res.send(checkFields.message)
+      if (checkFields) {
+        const teacherOptions = await Student.teacherSelectOptions()
+        return res.render('students/edit', { 
+          teacherOptions,
+          student: req.body,
+          error: checkFields.message
+        })
+      }
 
       await Student.update(id, {
         ...req.body,
@@ -107,6 +127,12 @@ module.exports = {
       return res.redirect(`students/${id}`)
     } catch (error) {
       console.error(error)
+      const teacherOptions = await Student.teacherSelectOptions()
+      return res.render('students/edit', { 
+        teacherOptions,
+        student: req.body,
+        error: `ATENÇÃO: ${error}`
+      })
     }
   },
   async delete(req, res) {

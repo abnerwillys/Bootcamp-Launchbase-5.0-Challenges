@@ -1,4 +1,4 @@
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Avatar URL</div>
   <div>
     <input 
@@ -10,7 +10,7 @@
   </div>
 </div>
 
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Teacher</div>
   <div>
     <input 
@@ -21,7 +21,7 @@
     >
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Date of birth</div>
   <div>
     <input 
@@ -31,10 +31,10 @@
     >
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Level Education</div>
   <div>
-    <select name="graduation" required>
+    <select name="graduation">
       <option value="" hidden>Select...</option>
       <option value="Hs" {% if teacher.graduation == "Hs" %}selected{% endif %}>
         High school
@@ -54,7 +54,7 @@
     </select>
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Type Class</div>
   <div>
     <span>
@@ -83,7 +83,7 @@
     </span>
   </div>
 </div>
-<div class="item">
+<div class="item {{'input-error' if error}}">
   <div>Expertise</div>
   <div>
     <input 
