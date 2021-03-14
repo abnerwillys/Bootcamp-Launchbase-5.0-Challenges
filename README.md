@@ -1,6 +1,6 @@
 <h1 align="center">
   <img 
-    src="/readme-assets/logo-launchbase.png"
+    src="./readme-assets/logo-launchbase.png"
     width="430px"
     alt="Logo do LaunchBase">
 </h1>
@@ -122,8 +122,12 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
     - [x] [Funções Assíncronas](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Async-functions)
     - [x] [Máscaras de Input](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module06-Mini-challenges/Input-masks)
 
-- :point_right: [Módulo 7 - Upload de Imagens](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06)  👨‍💻 Codando...👨‍💻
-  
+- :point_right: [Módulo 11 - Conceitos Avançados](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-11/blob/master/desafios/11-1-mini-desafios.md)  🏆 Finalizado 🏆
+  - [Desafio 11-1: Mini desafios](https://github.com/abner-starkasty/bootcamp-launchbase-desafios-06/blob/master/desafios/06-1-mini-desafios.md)
+    - [x] [Model Base](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module11-Advanced-concepts/Challenge-11-01)
+    - [x] [Seeds](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module11-Advanced-concepts/Challenge-11-01)
+    - [x] [Validação](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module11-Advanced-concepts/Challenge-11-01)
+    - [x] [Animações](https://github.com/abner-starkasty/Bootcamp-Launchbase-5.0-Challenges/tree/master/Module11-Advanced-concepts/Challenge-11-01)
 ---
 ### 💻 Tecnologias utilizadas
 
@@ -133,80 +137,80 @@ As seguintes ferramentas foram usadas na solução dos desafios:
 <p align="center">
   <a href="https://www.javascript.com/">
     <img 
-      src="/readme-assets/icon-javascript.svg" 
+      src="./readme-assets/icon-javascript.svg" 
       alt="logo JavaScript"
       width="50px"
       style="border-radius: 8px;">
   </a>
   <a href="http://www.ecma-international.org/ecma-262/6.0/">
     <img 
-      src="/readme-assets/icon-ecmascript6.svg" 
+      src="./readme-assets/icon-ecmascript6.svg" 
       alt="logo ECS6"
       width="50px"
       style="border-radius: 8px;">
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
     <img 
-      src="/readme-assets/icon-css3.svg" 
+      src="./readme-assets/icon-css3.svg" 
       alt="logo CSS3"
       width="50px"
       style="border-radius: 8px;">
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
     <img 
-      src="/readme-assets/icon-html5.svg" 
+      src="./readme-assets/icon-html5.svg" 
       alt="logo HTML5"
       width="50px"
       style="border-radius: 8px;">
   </a>
   <a href="https://mozilla.github.io/nunjucks/">
     <img 
-      src="/readme-assets/icon-nunjucks.svg" 
+      src="./readme-assets/icon-nunjucks.svg" 
       alt="logo HTML5"
       width="52px"
       style="border-radius: 8px;">
   </a>
   <a href="https://nodejs.org/en/">
     <img 
-      src="/readme-assets/icon-nodejs.svg" 
+      src="./readme-assets/icon-nodejs.svg" 
       alt="logo Node.js"
       width="50px"
       style="border-radius: 8px;">
   </a>
   <a href="https://expressjs.com/">
     <img 
-      src="/readme-assets/icon-express2.png" 
+      src="./readme-assets/icon-express2.png" 
       alt="logo framework express"
       width="85px">
   </a>
   <a href="https://git-scm.com/">
     <img 
-      src="/readme-assets/icon-git.svg" 
+      src="./readme-assets/icon-git.svg" 
       alt="logo git"
       width="50px">
   </a>
   <a href="https://github.com/">
     <img 
-      src="/readme-assets/icon-gitHub2.svg" 
-      alt="logo git"
+      src="./readme-assets/icon-gitHub2.svg" 
+      alt="logo github"
       width="50px">
   </a>
   <a href="https://www.postgresql.org/">
     <img 
-      src="/readme-assets/icon-postgresql.svg" 
+      src="./readme-assets/icon-postgresql.svg" 
       alt="logo postgreSQL"
       width="50px">
   </a>
-  <a href="https://www.figma.com/">
+  <a href="https://www.electronjs.org/apps/postbird">
     <img 
-      src="/readme-assets/icon-figma.svg" 
-      alt="logo Figma"
+      src="./readme-assets/icon-postbird.png" 
+      alt="logo postbird"
       width="50px">
   </a>
   <a href="https://code.visualstudio.com/">
     <img 
-      src="/readme-assets/icon-vscode.svg" 
-      alt="logo Figma"
+      src="./readme-assets/icon-vscode.svg" 
+      alt="logo visual studio code"
       width="50px">
   </a>
 </p>
