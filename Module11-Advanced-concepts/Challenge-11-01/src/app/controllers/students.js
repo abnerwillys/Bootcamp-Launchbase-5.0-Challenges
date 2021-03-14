@@ -64,7 +64,11 @@ module.exports = {
         birth: date(req.body.birth).iso
       })
 
-      return res.redirect(`students/${studentId}`)
+      return res.render("students/show", { 
+        student: { avatar_url: req.body.avatar_url },
+        action_feedback: true,
+        pathRedirect: `/students/${studentId}`
+      })
     } catch (error) {
       console.error(error)
       const teacherOptions = await Student.teacherSelectOptions()
@@ -124,7 +128,11 @@ module.exports = {
         birth: date(req.body.birth).iso
       })
 
-      return res.redirect(`students/${id}`)
+      return res.render("students/show", { 
+        student: { avatar_url: req.body.avatar_url },
+        action_feedback: true,
+        pathRedirect: `/students/${id}`
+      })
     } catch (error) {
       console.error(error)
       const teacherOptions = await Student.teacherSelectOptions()
@@ -139,7 +147,11 @@ module.exports = {
     try {
       await Student.delete(req.body.id)
 
-      return res.redirect('/students')
+      return res.render("students/show", { 
+        student: { avatar_url: req.body.avatar_url },
+        action_feedback: true,
+        pathRedirect: `/students`
+      })
     } catch (error) {
       console.error(error)
     }
