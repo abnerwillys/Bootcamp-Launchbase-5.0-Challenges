@@ -86,8 +86,10 @@ if (pagination) createPagination(pagination)
 //Alert when delete a teacher or student
 
 const formDelete = document.querySelector(".form-delete")
-formDelete.addEventListener("submit", (event) => {
-  const confirmation = confirm('Deseja Deletar?')
-  if (!confirmation) 
-    event.preventDefault()
-})
+if(formDelete) {
+  formDelete.addEventListener("submit", (event) => {
+    const confirmation = confirm('Deseja Deletar?')
+    if (!confirmation) 
+      event.preventDefault()
+  })
+}

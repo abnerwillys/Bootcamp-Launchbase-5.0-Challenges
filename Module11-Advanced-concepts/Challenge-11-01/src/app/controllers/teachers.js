@@ -54,7 +54,11 @@ module.exports = {
         birth: date(req.body.birth).iso
       })
 
-      return res.redirect(`teachers/${teacherId}`)
+      return res.render("teachers/show", { 
+        teacher: { avatar_url: req.body.avatar_url },
+        action_feedback: true,
+        pathRedirect: `/teachers/${teacherId}`
+      })
     } catch (error) {
       console.log(error)
       return res.render('teachers/create', { 
@@ -108,7 +112,11 @@ module.exports = {
         birth: date(req.body.birth).iso
       })
 
-      return res.redirect(`teachers/${id}`)
+      return res.render("teachers/show", { 
+        teacher: { avatar_url: req.body.avatar_url },
+        action_feedback: true,
+        pathRedirect: `/teachers/${id}`
+      })
     } catch (error) {
       console.error(error)
       return res.render('teachers/edit', { 
@@ -121,7 +129,11 @@ module.exports = {
     try {
       await Teacher.delete(req.body.id)
 
-      return res.redirect('/teachers')
+      return res.render("teachers/show", { 
+        teacher: { avatar_url: req.body.avatar_url },
+        action_feedback: true,
+        pathRedirect: `/teachers`
+      })
     } catch (error) {
       console.error(error)
     }
